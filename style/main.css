@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+body {
+  overflow-x: hidden;
+  -moz-overflow-x: hidden;
+  -o-overflow-x: hidden;
+  -ms-overflow-x: hidden;
+}
+
+.spacing {
+  margin: auto 150px !important;
+}
+
+.page--head {
+  height: 50.6rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 46, 54, 0.9)), to(rgba(46, 46, 54, 0.9))), url("jj-ying-7JX0-bfiuxQ-unsplash@2x.png") no-repeat center;
+  background: linear-gradient(0deg, rgba(46, 46, 54, 0.9), rgba(46, 46, 54, 0.9)), url("jj-ying-7JX0-bfiuxQ-unsplash@2x.png") no-repeat center;
+  background-size: cover;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.page--head .navbar .navbar-nav .nav-item {
+  padding: 0px 20px !important;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.1rem;
+  border-color: #AFA1A1 !important;
+}
+
+.page--head .navbar .navbar-nav .nav-item:visited {
+  color: #37ef7d;
+}
+
+.page--head article {
+  margin-top: 120px !important;
+}
+
+.page--head article .header-title h1 {
+  font-size: 4.37rem;
+}
+
+.page--head article .header-title h1 span {
+  display: block;
+}
+
+.page--head article .header-title p {
+  font: 300 2.18rem "Nunito Sans", sans-serif;
+}
+
+.page--head article form {
+  margin: 120px auto;
+}
+
+.page--head article form .btn {
+  width: 15rem;
+  height: 4.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #ffffff;
+  border-radius: 33px;
+}
+
+.page--head article .header-img {
+  width: 60.1rem;
+  height: 48.6rem;
+  transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  position: relative;
+  top: -500px;
+  left: 200px;
+  z-index: 1;
+  -webkit-box-shadow: 17px 11px 23px rgba(40, 40, 48, 0.23);
+          box-shadow: 17px 11px 23px rgba(40, 40, 48, 0.23);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.page--head article .header-img img {
+  height: 778px;
+  position: relative;
+  top: -15px;
+  left: 150px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.unified {
+  padding: 6% 0% 3% 0%;
+}
+
+.unified h4, .modules h4, .users h4, .news h4 {
+  font: 600 2.2rem "Nunito Sans", sans-serif;
+  color: #2c2c36;
+}
+
+.unified h4 span, .modules h4 span, .users h4 span, .news h4 span {
+  display: block;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #d9dadc;
+          text-decoration-color: #d9dadc;
+}
+
+.unified .text-dark p, .modules .text-dark p, .users .text-dark p, .news .text-dark p {
+  font: 400 1.5rem "Nunito Sans", sans-serif;
+  color: #707070;
+  padding: 30px 0px;
+}
+
+.unified--card .card, .modules--card .card, .users--card .card {
+  border: none !important;
+  border-radius: 26px;
+  padding: 20px;
+}
+
+.unified--card .card .card-header, .modules--card .card .card-header, .users--card .card .card-header {
+  background-color: #ffffff !important;
+  border: none !important;
+  border-radius: 26px;
+}
+
+.unified--card .card .unified--card-icon {
+  border-radius: 16px;
+  padding: 18px;
+  width: 4.2rem;
+}
+
+.unified--card .card .check-square {
+  background-color: #37ef7d14 !important;
+}
+
+.unified--card .card .upload-cloud {
+  background-color: #43729514 !important;
+}
+
+.unified--card .card .thumbs-up {
+  background-color: #a346b114 !important;
+}
+
+.unified--card .card .card-body .card-title {
+  font: 400 1.5rem "Nunito Sans", sans-serif;
+  color: #2c2c36;
+  margin-bottom: 25px !important;
+}
+
+.unified--card .card .card-body p {
+  font: 400 1.1rem "Nunito Sans", sans-serif;
+  color: #999999;
+}
+
+.modules--card .card .card-body h5 {
+  font: 400 1.9rem "Nunito Sans", sans-serif;
+  color: #2f2e33;
+}
+
+.modules--card .card .card-body p {
+  font: 400 1.25rem "Open Sans", sans-serif;
+  color: #525254;
+}
+
+.ads {
+  height: 38.06rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(112, 112, 112, 0.91)), to(rgba(112, 112, 112, 0.91))), url("795x532-article-images_0040_professional-barista-small-business@2x.png") 0% 0% no-repeat padding-box;
+  background: linear-gradient(0deg, rgba(112, 112, 112, 0.91), rgba(112, 112, 112, 0.91)), url("795x532-article-images_0040_professional-barista-small-business@2x.png") 0% 0% no-repeat padding-box;
+  background-size: cover;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.ads .text-center {
+  padding: 8% 0%;
+}
+
+.ads .text-center h1 {
+  font-size: 3.44rem;
+}
+
+.ads .text-center h1 span {
+  display: block;
+}
+
+.ads .text-center .btn {
+  width: 26rem;
+  height: 4.5rem;
+  font: 300 1.5rem "Nunito Sans", sans-serif;
+  border-radius: 33px;
+}
+
+.users {
+  background: transparent url("section-background-benefits.png") repeat padding-box;
+}
+
+.users .users--card .card {
+  -webkit-box-shadow: 0px 3px 18px #00000029;
+          box-shadow: 0px 3px 18px #00000029;
+}
+
+.users .users--card .card .distribution img {
+  border-radius: 23px;
+  padding: 15px;
+  background-color: #f38000;
+}
+
+.users .users--card .card .retail img {
+  border-radius: 23px;
+  padding: 15px;
+  background-color: #009bff;
+}
+
+.users .users--card .card .service img {
+  border-radius: 23px;
+  padding: 15px;
+  background-color: #a346b1;
+}
+
+.users .users--card .card .manufacturing img {
+  border-radius: 23px;
+  padding: 15px;
+  background-color: #f38000;
+}
+
+.users .users--card .card .card-body .card-title {
+  font: 600 1.9rem "Nunito Sans", sans-serif;
+  color: #2c2c36;
+}
+
+.users .users--card .card .card-body p {
+  font: 400 1.25rem "Open Sans", sans-serif;
+  color: #525254;
+}
+
+.news .news--card .card {
+  border: none;
+}
+
+.news .news--card .card img {
+  width: 22.75rem;
+  height: 23rem;
+  border-radius: 20px;
+}
+
+.news .news--card .card .card-body {
+  padding-left: 0px;
+}
+
+.news .news--card .card .card-body p {
+  font: 400 1.44rem "Nunito Sans", sans-serif;
+}
+
+.news .news--card .card .card-body .card-footer {
+  font: 400 0.75rem "Nunito Sans", sans-serif;
+  color: #707070;
+  background-color: #ffffff !important;
+  border: none;
+}
+
+.footer {
+  background: #2e2e36 0% 0% no-repeat padding-box;
+  height: 36.18rem;
+}
+
+.footer .icon-foot {
+  width: 6.56rem;
+  height: 6.56rem;
+  border-radius: 50%;
+  background: #2e2e36 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: -5px 8px 25px #282830;
+          box-shadow: -5px 8px 25px #282830;
+  padding: 1.3%;
+  margin-top: -50px;
+  z-index: 1;
+}
+
+.footer .text .h4 {
+  font: 600 1.75rem "Open Sans", sans-serif;
+  color: #787878;
+}
+
+.footer .text .nav {
+  font: 300 1.13rem "Nunito Sans", sans-serif;
+  color: #c4c4c4;
+}
+
+.bottom-foot {
+  background: #282830;
+  height: 4.9rem;
+  padding: 25px 0px;
+  margin-top: -25px;
+}
+
+.bottom-foot .bottom-text {
+  font: 300 1rem "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.bottom-foot .bottom-text .foot-icon img {
+  width: 20px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  margin: 0px 10px;
+}
+/*# sourceMappingURL=main.css.map */
