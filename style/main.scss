@@ -71,7 +71,7 @@ $footer_bg: #2e2e36 0% 0% no-repeat padding-box;
 @mixin position{
     position: relative;
     top: -500px;
-    left: 200px;
+    left: 375px;
 }
 
 @mixin h4{
@@ -275,10 +275,10 @@ body{
                 }
         }
         .btn{
-            width: 26rem;
-            height: 4.5rem;
-            font: $light 1.5rem $font_1;
-            border-radius: $radius * 3.3;
+            width: 26.56rem;
+            height: 5.8rem;
+            font: $regular 1.44rem $font_1;
+            border-radius: $radius * 6.5;
         }
     }
 }
@@ -346,6 +346,7 @@ body{
                     color: $subtitle;
                     background-color: $white !important;
                     border: none;
+                    display: flex;
                 }
             }
         }
@@ -361,8 +362,7 @@ body{
         height: 6.56rem;
         border-radius: 50%;
         background: $footer_bg;
-        box-shadow: -5px 8px 25px #282830;
-        padding: 1.3%;
+        box-shadow: -5px 8px 25px #282830;;
         margin-top: -50px;
         z-index: 1;
     }
