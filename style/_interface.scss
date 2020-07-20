@@ -1,0 +1,21 @@
+// Margin
+$margin-center: 120px auto;
+$pad: 30px 0px;
+
+// Shadow
+$shadow: 17px 11px 23px rgba(40, 40, 48, 0.23);
+
+// Radius
+$radius: 10px;
+
+// Display
+$h1_span: block;
+
+// Font
+$Sub: $regular 1.5rem $font_1;
+
+$footer_bg: #2e2e36 0% 0% no-repeat padding-box;
+
+.spacing{
+    margin: auto 150px !important;
+}

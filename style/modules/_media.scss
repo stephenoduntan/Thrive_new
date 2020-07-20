@@ -1,0 +1,291 @@
+// Style
+body{
+    @include overflow;
+}
+.page--head {
+    height: 50.6rem;
+    background: linear-gradient(0deg, rgba(46,46,54,0.9), rgba(46,46,54,0.9)), 
+                url('jj-ying-7JX0-bfiuxQ-unsplash@2x.png') no-repeat center;
+    background-size: cover;
+    font-family: $font_1;
+
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                padding: 0px 20px !important;
+                @include navbar-link;
+                &:visited{
+                    color: $lemon;
+                }
+            }
+        }
+    }
+
+    article {
+        margin-top: 120px !important;
+
+        .header-title{
+            h1{
+                font-size: 4.37rem;
+
+                span{
+                    display: $h1_span;
+                }
+            }
+            p{
+                font: $light 2.18rem $font_1;
+            }
+        }
+
+        form{
+            margin: $margin-center;
+
+            .btn{
+                width: 15rem;
+                height: 4.5rem;
+                font-size: 1.5rem;
+                font-weight: $light;
+                color: $white;
+                border-radius: $radius * 3.3;
+            }
+        }
+        .header-img{
+            width: 60.1rem;
+            height: 48.6rem;
+            @include transform(rotateY(180deg));
+            @include position;
+            z-index: 1;
+            box-shadow: $shadow;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img{
+                height: 778px;
+                position: relative;
+                top: -15px;
+                left: 150px;
+                transform: scale(1.2);
+            }
+        }
+        
+    }     
+}
+.unified{
+    padding: 6% 0% 3% 0%;
+}
+
+.unified, .modules, .users, .news{
+    h4{
+        @include h4;
+
+        span{
+            @include h4_span;
+        }
+    }
+    .text-dark{
+        p{
+            @include subtitle();
+        }
+    }
+}
+
+.unified--card, .modules--card, .users--card{
+    .card{
+        border: none !important;
+        border-radius: $radius * 2.6;
+        padding: 20px;
+
+        .card-header{
+            background-color: $white !important;
+            border: none !important;
+            border-radius: $radius * 2.6;
+        }
+    }
+}
+
+.unified--card{
+    .card{
+        .unified--card-icon{
+            @include unified--card-icon;
+        }
+    
+        .check-square{
+            background-color: $lemon14 !important;
+        }
+        .upload-cloud{
+            background-color: $dimblue14 !important;     
+        }
+        .thumbs-up{
+            background-color: $lilac14 !important;
+        }
+
+        .card-body{
+            .card-title{
+                font: $regular 1.5rem $font_1;
+                color: $h4_color;
+                margin-bottom: 25px !important;
+            }
+            p{
+                font: $regular 1.1rem $font_1;
+                color: #999999;
+            }
+        }
+    }  
+}
+
+.modules--card{
+    .card{
+        .card-body{
+            // padding: 0px !important;
+
+            h5{
+                font: $regular 1.9rem $font_1;
+                color: #2f2e33;
+            }
+            p{
+                font: $regular 1.25rem $font_2;
+                color: #525254;
+            }
+        }
+    }
+}
+
+.ads{
+    height: 38.06rem;
+    background: linear-gradient(0deg, rgba(112,112,112,0.91), rgba(112,112,112,0.91)), 
+                url('795x532-article-images_0040_professional-barista-small-business@2x.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    font-family: $font_1;
+    
+    .text-center{
+        padding: 8% 0%;
+
+        h1{
+            font-size: 3.44rem;
+
+                span{
+                    display: $h1_span;
+                }
+        }
+        .btn{
+            width: 26.56rem;
+            height: 5.8rem;
+            font: $regular 1.44rem $font_1;
+            border-radius: $radius * 6.5;
+        }
+    }
+}
+
+.users{
+    background: transparent url('section-background-benefits.png') repeat padding-box;
+
+    .users--card{
+       .card{
+           box-shadow: 0px 3px 18px #00000029;
+
+           .distribution{
+               img{
+                    @include users--card-icon($orange);
+                }
+            }
+           .retail{
+                img{
+                    @include users--card-icon($skyblue);
+                }
+            }
+            .service{
+                img{
+                    @include users--card-icon($lilac);
+                }
+            }
+            .manufacturing{
+                img{
+                    @include users--card-icon($orange);
+                }
+            }
+
+            .card-body{
+                .card-title{
+                    font: $semi-bold 1.9rem $font_1;
+                    color: $h4_color;
+                }
+                p{
+                    font: $regular 1.25rem $font_2;
+                    color: #525254;
+                }
+            }
+        }
+    }  
+}
+
+.news{
+    .news--card{
+        .card{
+            border: none;
+
+            img{
+                width: 22.75rem;
+                height: 23rem;
+                border-radius: $radius * 2;
+            }
+            .card-body{
+                padding-left: 0px;
+
+                p{
+                    font: $regular 1.44rem $font_1;
+                }
+                .card-footer{
+                    font: $regular .75rem $font_1;
+                    color: $subtitle;
+                    background-color: $white !important;
+                    border: none;
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    background: $footer_bg;
+    height: 36.18rem;
+
+    .icon-foot{
+        width: 6.56rem;
+        height: 6.56rem;
+        border-radius: 50%;
+        background: $footer_bg;
+        box-shadow: -5px 8px 25px #282830;;
+        margin-top: -50px;
+        z-index: 1;
+    }
+    .text{
+        .h4{
+            font: $semi-bold 1.75rem $font_2;
+            color: #787878;
+        }
+        .nav{
+            font: $light 1.13rem $font_1;
+            color: #c4c4c4;
+        }
+    }
+}
+.bottom-foot{
+    background: #282830;
+    height: 4.9rem;
+    padding: 25px 0px;
+    margin-top: -25px;
+
+    .bottom-text{
+        font: $light 1rem $font_2;
+        color: $white;
+
+        .foot-icon{
+            img{
+                width: 20px;
+                filter: invert(1);
+                margin: 0px 10px;
+            }
+        }
+    }
+}

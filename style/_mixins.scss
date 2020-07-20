@@ -1,0 +1,57 @@
+// Mixins
+@mixin navbar-link {
+    color: $white;
+    font-weight: $light;
+    font-size: 1.1rem;
+    border-color: #AFA1A1 !important;
+}
+
+@mixin transform($rotate) {
+    transform: $rotate;
+    -moz-transform: $rotate;
+    -webkit-transform: $rotate;
+    -o-transform: $rotate;
+    -ms-transform: $rotate;
+}
+
+@mixin overflow($hidden: hidden){
+    overflow-x: $hidden;
+    -moz-overflow-x: $hidden;
+    -o-overflow-x: $hidden;
+    -ms-overflow-x: $hidden;
+}
+
+@mixin position{
+    position: relative;
+    top: -500px;
+    left: 375px;
+}
+
+@mixin h4{
+    font: $semi-bold 2.2rem $font_1;
+    color: $h4_color;
+}
+
+@mixin h4_span{
+    display: $h1_span;
+    text-decoration: underline;
+    text-decoration-color: $underline;
+}
+
+@mixin subtitle {
+    font: $Sub;
+    color: $subtitle;
+    padding: $pad;
+}
+
+@mixin unified--card-icon{
+    border-radius: $radius * 1.6;
+    padding: 18px;
+    width: 4.2rem;
+}
+
+@mixin users--card-icon($color) {
+    border-radius: $radius * 2.3;
+    padding: 15px;
+    background-color: $color;
+}

@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+.spacing {
+  margin: auto 150px !important;
+}
+
 body {
   overflow-x: hidden;
   -moz-overflow-x: hidden;
   -o-overflow-x: hidden;
   -ms-overflow-x: hidden;
-}
-
-.spacing {
-  margin: auto 150px !important;
 }
 
 .page--head {
