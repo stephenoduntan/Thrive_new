@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
-
 .spacing {
   margin: auto 150px !important;
 }
@@ -14,8 +13,8 @@ body {
 
 .page--head {
   height: 50.6rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 46, 54, 0.9)), to(rgba(46, 46, 54, 0.9))), url("jj-ying-7JX0-bfiuxQ-unsplash@2x.png") no-repeat center;
-  background: linear-gradient(0deg, rgba(46, 46, 54, 0.9), rgba(46, 46, 54, 0.9)), url("jj-ying-7JX0-bfiuxQ-unsplash@2x.png") no-repeat center;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 46, 54, 0.9)), to(rgba(46, 46, 54, 0.9))), url("images/jj-ying-7JX0-bfiuxQ-unsplash@2x.png") no-repeat center;
+  background: linear-gradient(0deg, rgba(46, 46, 54, 0.9), rgba(46, 46, 54, 0.9)), url("images/jj-ying-7JX0-bfiuxQ-unsplash@2x.png") no-repeat center;
   background-size: cover;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -163,8 +162,8 @@ body {
 
 .ads {
   height: 38.06rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(112, 112, 112, 0.91)), to(rgba(112, 112, 112, 0.91))), url("795x532-article-images_0040_professional-barista-small-business@2x.png") 0% 0% no-repeat padding-box;
-  background: linear-gradient(0deg, rgba(112, 112, 112, 0.91), rgba(112, 112, 112, 0.91)), url("795x532-article-images_0040_professional-barista-small-business@2x.png") 0% 0% no-repeat padding-box;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(112, 112, 112, 0.91)), to(rgba(112, 112, 112, 0.91))), url("images/795x532-article-images_0040_professional-barista-small-business@2x.png") 0% 0% no-repeat padding-box;
+  background: linear-gradient(0deg, rgba(112, 112, 112, 0.91), rgba(112, 112, 112, 0.91)), url("images/795x532-article-images_0040_professional-barista-small-business@2x.png") 0% 0% no-repeat padding-box;
   background-size: cover;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -189,7 +188,7 @@ body {
 }
 
 .users {
-  background: transparent url("section-background-benefits.png") repeat padding-box;
+  background: transparent url("images/section-background-benefits.png") repeat padding-box;
 }
 
 .users .users--card .card {
