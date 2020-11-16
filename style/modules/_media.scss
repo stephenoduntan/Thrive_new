@@ -14,7 +14,9 @@ body{
             .nav-item{
                 padding: 0px 20px !important;
                 @include navbar-link;
-                &:visited{
+                &:active,
+				&:hover,
+				&:focus{
                     color: $lemon;
                 }
             }

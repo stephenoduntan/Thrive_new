@@ -27,7 +27,9 @@ body {
   border-color: #AFA1A1 !important;
 }
 
-.page--head .navbar .navbar-nav .nav-item:visited {
+.page--head .navbar .navbar-nav .nav-item:active,
+.page--head .navbar .navbar-nav .nav-item:hover,
+.page--head .navbar .navbar-nav .nav-item:focus {
   color: #37ef7d;
 }
 
